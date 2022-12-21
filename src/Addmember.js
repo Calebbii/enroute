@@ -116,15 +116,10 @@ function Settings() {
                         </div>
                         <div class="row align-items-center">
                             <div class="col-md-6 mb-3">
-                            <label for="birthday">Birthday</label>
-                            <div class="input-group">
-                                <span class="input-group-text">
-                                    <svg class="icon icon-xs" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </span>
-                                <input data-datepicker="" class="form-control" id="birthday" type="text" placeholder="dd/mm/yyyy" required />
-                            </div>
+                                <div class="form-group">
+                                    <label for="phone">ID Number</label>
+                                    <input class="form-control" id="identificationNo" type="number" placeholder="345 678 910" required />
+                                </div>
                             </div>
                             <div class="col-md-6 mb-3">
                             <label for="gender">Gender</label> 
@@ -137,10 +132,18 @@ function Settings() {
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                            <div class="form-group"><label for="email">Email</label> <input class="form-control" id="email" type="email" placeholder="name@company.com" required /></div>
+                            <div class="form-group"><label for="email">Email</label> <input class="form-control" id="email" type="email" placeholder="name@gmail.com" required /></div>
                             </div>
                             <div class="col-md-6 mb-3">
-                            <div class="form-group"><label for="phone">Phone</label> <input class="form-control" id="phone" type="number" placeholder="+12-345 678 910" required /></div>
+                            <div class="form-group"><label for="phone">Phone</label> <input class="form-control" id="phone" type="number" placeholder="+254708891130" required /></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                            <div class="form-group"><label for="email">Vehicle Registration No</label> <input class="form-control" id="vehicleRegistrationNo" type="email" placeholder="KDK 225V" required /></div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                            <div class="form-group"><label for="phone">Vehicles Owner</label> <input class="form-control" id="phone" type="string" placeholder="Caleb Bii" required /></div>
                             </div>
                         </div>
                         <h2 class="h5 my-4">Location</h2>
