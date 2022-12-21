@@ -167,7 +167,7 @@ function Tables() {
                 </nav>
                 <div class="d-flex justify-content-between w-100 flex-wrap">
                 <div class="mb-3 mb-lg-0">
-                    <h1 class="h4">Bootstrap tables</h1>
+                    <h1 class="h4">Active Members</h1>
                     <p class="mb-0">Dozens of reusable components built to provide buttons, alerts, popovers, and more.</p>
                 </div>
                 <div>
@@ -175,7 +175,7 @@ function Tables() {
                         <svg class="icon icon-xs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                         </svg>
-                        Bootstrap Tables Docs
+                        Add a Member 
                     </a>
                 </div>
                 </div>
@@ -187,10 +187,10 @@ function Tables() {
                         <thead class="thead-light">
                             <tr>
                             <th class="border-0 rounded-start">#</th>
-                            <th class="border-0">Traffic Source</th>
-                            <th class="border-0">Source Type</th>
-                            <th class="border-0">Category</th>
-                            <th class="border-0">Global Rank</th>
+                            <th class="border-0">First Name</th>
+                            <th class="border-0">Last Name</th>
+                            <th class="border-0">Id Number</th>
+                            <th class="border-0">Vehicle Registration No</th>
                             <th class="border-0">Traffic Share</th>
                             <th class="border-0 rounded-end">Change</th>
                             </tr>

@@ -1,7 +1,7 @@
 import Header from './Header'; //Include Header
 import Footer from './Footer'; //Include Footer
 import Dashboard from './Dashboard'
-import Settings from './Settings'
+import Addmember from './Addmember'
 import Tables from './Tables'
 import SignIn from './SignIn'
 import SignUp from './SignUp'
@@ -24,7 +24,7 @@ function App() {
           <main class="content">
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                <Route path="/settings" element={<Settings />} />
+                <Route path="/addmember" element={<Addmember />} />
                 <Route path="/tables" element={<Tables />} />
                 <Route path="/sign-in" element={<SignIn />} />
                 <Route path="/sign-up" element={<SignUp />} />
