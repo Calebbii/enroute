@@ -1,18 +1,16 @@
 import Header from './Header'; //Include Header
 import Footer from './Footer'; //Include Footer
-import Dashboard from './Dashboard'
-import Addmember from './Addmember'
+import Dashboard from './components/Dashboard'
+import Addmember from './components/Addmember'
 import Tables from './Tables'
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+import SignIn from './pages/SignIn'
+import SignUp from './pages/SignUp'
 import ForgotPassword from './ForgotPassword';
 import ResetPassword from './ResetPassword';
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link,
-  Outlet
+  Route
 } from "react-router-dom";
 
 function App() {
