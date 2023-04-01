@@ -1,12 +1,12 @@
-import Header from './Header'; //Include Header
-import Footer from './Footer'; //Include Footer
+import Header from './components/Header'; //Include Header
+import Footer from './components/Footer'; //Include Footer
 import Dashboard from './components/Dashboard'
 import Addmember from './components/Addmember'
 import Tables from './components/Tables'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import ForgotPassword from './pages/ForgotPassword';
-import ResetPassword from './ResetPassword';
+import ResetPassword from './pages/ResetPassword';
 import {
   BrowserRouter,
   Routes,
