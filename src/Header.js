@@ -93,7 +93,7 @@ function Header() {
                         </span>
                         <div class="multi-level collapse" role="list" id="submenu-pages" aria-expanded="false">
                             <ul class="flex-column nav">
-                            <li class="nav-item"><Link class="nav-link" to={{ pathname: "/sign-in"}}><span class="sidebar-text">Sign In</span></Link></li>
+                            <li class="nav-item"><Link class="nav-link" to={{ pathname: "/"}}><span class="sidebar-text">Sign In</span></Link></li>
                             <li class="nav-item"><Link class="nav-link" to={{ pathname: "/sign-up"}}><span class="sidebar-text">Sign Up</span></Link></li>
                             <li class="nav-item"><Link class="nav-link" to={{ pathname: "/forgotpassword"}}><span class="sidebar-text">Forgot password</span></Link></li>
                             <li class="nav-item"><Link class="nav-link" to={{ pathname: "/resetpassword"}}><span class="sidebar-text">Reset password</span></Link></li>
