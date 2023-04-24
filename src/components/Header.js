@@ -3,7 +3,7 @@ function Header() {
     return (
         <div className="header-container">
             <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
-            <Link class="navbar-brand me-lg-5" to={{ pathname: "/"}}><img class="navbar-brand-dark" src="assets/img/light.svg" alt="Rich logo" /> <img class="navbar-brand-light" src="assets/img/dark.svg" alt="Rich logo" /></Link>
+            <Link class="navbar-brand me-lg-5" to={{ pathname: "/"}}><img class="navbar-brand-dark" src="assets/img/light.svg" alt="enroute logo" /> <img class="navbar-brand-light" src="assets/img/dark.svg" alt="Rich logo" /></Link>
                 <div class="d-flex align-items-center"><button class="navbar-toggler d-lg-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button></div>
             </nav>
             <nav id="sidebarMenu" class="sidebar d-lg-block bg-gray-800 text-white collapse" data-simplebar>
@@ -60,17 +60,17 @@ function Header() {
                                     <path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path>
                                 </svg>
                             </span>
-                            <span class="sidebar-text">Tables</span> 
+                            <span class="sidebar-text">Active Members</span> 
                             </span>
                             <span class="link-arrow">
-                            <svg class="icon icon-sm" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="icon icon-sm" fill="currentColor" viewBox="0 0 20 20" xmlns="/addmember">
                                 <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
                             </svg>
                             </span>
                         </span>
                         <div class="multi-level collapse" role="list" id="submenu-app" aria-expanded="false">
                             <ul class="flex-column nav">
-                            <li class="nav-item"><Link class="nav-link" to={{ pathname: "/tables"}}><span class="sidebar-text">Bootstrap Tables</span></Link></li>
+                            <li class="nav-item"><Link class="nav-link" to={{ pathname: "/activemembers"}}><span class="sidebar-text">Active Me</span></Link></li>
                             </ul>
                         </div>
                     </li>
