@@ -18,11 +18,11 @@ This section will guide you through setting up and running this repository on yo
 
 * Clone the repository
     ```
-    git clone https://github.com/sinatra-pod/moringa-library.git
+    git clone https://github.com/Calebbii/enroute.git
     ```
 * Navigate to the project folder
     ```
-    cd moringa-library
+    cd enroute
     ```
 * To interact with the front-end part of the application, navigate to the `webapp` folder
     ```
