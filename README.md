@@ -7,7 +7,7 @@ In order to use this repository, you will need to have the following setup in yo
 
 *  `node v0.9.0+`
 * `npm 8.15.0+`
-* `ruby 2.7.4+`
+* `python 3.9.0+`
 
 
 ## Setup Instructions
