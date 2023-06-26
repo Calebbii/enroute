@@ -22,7 +22,7 @@ This section will guide you through setting up and running this repository on yo
     ```
 * Navigate to the project folder
     ```
-    cd enroute
+    cd enroute 
     ```
 * To interact with the front-end part of the application, navigate to the `webapp` folder
     ```
