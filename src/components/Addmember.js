@@ -87,20 +87,6 @@ function Settings() {
                 </div>
             </nav>
 
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
             <div class="row">
                 <div class="col-12 col-xl-8">
                 <div class="card card-body border-0 shadow mb-4">
@@ -322,6 +308,9 @@ function Settings() {
                     </div>
                 </div>
                 </div>
+            </div>
+            <div>
+                <h1>All my life</h1>
             </div>
            
         </div>

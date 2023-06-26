@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+## Prerequisites
+In order to use this repository, you will need to have the following setup in your computer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![node:v0.9.0](https://img.shields.io/badge/node-v0.9.0-blue.svg)
+![npm:v8.15.0](https://img.shields.io/badge/npm-v8.15.0-blueviolet.svg)
+![ruby:2.7.4](https://img.shields.io/badge/ruby-2.7.4-yellow.svg)
 
-## Available Scripts
+*  `node v0.9.0+`
+* `npm 8.15.0+`
+* `ruby 2.7.4+`
 
-In the project directory, you can run:
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This section will guide you through setting up and running this repository on your local machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project
 
-### `npm test`
+* Clone the repository
+    ```
+    git clone https://github.com/sinatra-pod/moringa-library.git
+    ```
+* Navigate to the project folder
+    ```
+    cd moringa-library
+    ```
+* To interact with the front-end part of the application, navigate to the `webapp` folder
+    ```
+    cd webapp
+    ```
+* To interact with the back-end part of the application, navigate to the `api` folder
+    ```
+    cd api
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Environment Variables
+To use the environment variables, create three environment files: `.env`, `.env.development` and `.env.production`.
 
-### `npm run build`
+Use the following criteria to set your environment variables:
+* `.env` - Common variables that are not specific to any environment.
+* `.env.development` - Variables that are only specific to `development` or `test` environments.
+* `.env.production` - Variables that are only specific to production environment. Example: `ENTRY`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```{shell}
+# DOCKER POSTRESQL DATABASE
+DEV_DB_USER='database_username'
+DEV_DB_PASSWORD='database_password'
+DEV_DB_NAME='database_name'
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# DOMAIN
+CURRENT_SITE_DOMAIN=http://localhost:8080/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# SENTRY
+SENTRY_DNS=8.8.8.8
 
-### `npm run eject`
+# COMMON_API_CREDS
+REACT_APP_API_URL=https://myApiServerUrl.com
+```
+NB:
+* Ensure you use the prefix `REACT_APP_` to store all the variables that are needed in the React Application. Example: `REACT_APP_NAME=janedoe`
+* **DO NOT** commit any of the environment files to version control.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Docker
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This application is built with Docker, you will need to have the following installed in order to use it:
+* `Makefile` - Use the link below to install https://makefiletutorial.com/.
+* `Docker` - https://www.docker.com/.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Build Docker container and start service.
+    ```
+    make docker-build 
+    ```
+2. Show logs from container processes.
+    ```
+    make show-logs
+    ```
+3. Stop container.
+    ```
+    make start 
+    ```
+4. All client sided routes are rendered from root, `/`. Example `http://localhost:8080/admin` - Admin React Page
+5. All API endpoints are rendered from `/api/`. Example `http://localhost:8080/api/admin` - Admin endpoint
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**NB: All requests are listening from port `8080`.**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+This application has been built with these technologies:
+* Ruby `v2.7.0` 
+* Sinatra `v3.0`
+* RSpec `v3.1.2`
+* React `v18.0`
+* Typescript `v4.9.5`
+* Jest `v29.5.0`
+* Firebase `v9.17.0`
+* nginx
+* Docker
+* GitHub Actions
+* GitHub Projects

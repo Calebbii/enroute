@@ -29,7 +29,7 @@ function App() {
                 <Route path="/forgotpassword" element={<ForgotPassword />} />
                 <Route path="/resetpassword" element={<ResetPassword />} />
               </Routes>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
           </main>
         </BrowserRouter>
      
