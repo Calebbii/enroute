@@ -42,7 +42,7 @@ Use the following criteria to set your environment variables:
 * `.env.production` - Variables that are only specific to production environment. Example: `ENTRY`.
 
 ```{shell}
-# DOCKER POSTRESQL DATABASE
+# DOCKER POSTRESQL DATABASE 
 DEV_DB_USER='database_username'
 DEV_DB_PASSWORD='database_password' 
 DEV_DB_NAME='database_name' 
