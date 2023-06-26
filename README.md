@@ -93,7 +93,7 @@ This application has been built with these technologies:
 * Typescript `v4.9.5`
 * Jest `v29.5.0`
 * Firebase `v9.17.0`
-* nginx
+
 * Docker
 * GitHub Actions
 * GitHub Projects
