@@ -86,7 +86,7 @@ This application is built with Docker, you will need to have the following insta
 
 **NB: All requests are listening from port `8080`.**
 
-## Technologies Used
+## Technologies Used 
 This application has been built with these technologies:
 * RSpec `v3.1.2`
 * React `v18.0`
