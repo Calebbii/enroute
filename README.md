@@ -85,8 +85,6 @@ This application is built with Docker, you will need to have the following insta
 
 ## Technologies Used
 This application has been built with these technologies:
-* Ruby `v2.7.0` 
-* Sinatra `v3.0`
 * RSpec `v3.1.2`
 * React `v18.0`
 * Typescript `v4.9.5`
