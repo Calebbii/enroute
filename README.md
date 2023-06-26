@@ -17,7 +17,7 @@ This section will guide you through setting up and running this repository on yo
 ### Project
 
 * Clone the repository
-    ```
+    ``` 
     git clone https://github.com/Calebbii/enroute.git
     ```
 * Navigate to the project folder
