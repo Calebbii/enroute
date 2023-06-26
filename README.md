@@ -31,7 +31,7 @@ This section will guide you through setting up and running this repository on yo
 * To interact with the back-end part of the application, navigate to the `api` folder
     ```
     cd api
-    ```
+    ``` 
 
 ### Environment Variables
 To use the environment variables, create three environment files: `.env`, `.env.development` and `.env.production`.
