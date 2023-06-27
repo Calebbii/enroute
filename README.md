@@ -78,7 +78,7 @@ This application is built with Docker, you will need to have the following insta
     make show-logs
     ```
 3. Stop container.
-    ```
+    ``` 
     make start 
     ```
 4. All client sided routes are rendered from root, `/`. Example `http://localhost:8080/admin` - Admin React Page
