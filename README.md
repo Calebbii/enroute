@@ -42,7 +42,7 @@ To use the environment variables, create three environment files: `.env`, `.env.
 Use the following criteria to set your environment variables:
 * `.env` - Common variables that are not specific to any environment.
 * `.env.development` - Variables that are only specific to `development` or `test` environments.
-* `.env.production` - Variables that are only specific to production environment. Example: `ENTRY`.
+* `.env.production` - Variables that are only specific to the production environment. Example: `ENTRY`.
 
 ```{shell}
 # DOCKER POSTRESQL DATABASE 
