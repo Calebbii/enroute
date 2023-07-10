@@ -13,7 +13,6 @@ function Footer() {
                     <li class="list-inline-item px-0 px-sm-2"><a href="#">Themes</a></li>
                     <li class="list-inline-item px-0 px-sm-2"><a href="#">Blog</a></li>
                     <li class="list-inline-item px-0 px-sm-2"><a href="#">Contact</a></li>
-                    <li class="list-inline-item px-0 px-sm-2"><a href="#">Contact</a></li>
                 </ul>
             </div>
             </div>
